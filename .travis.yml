@@ -1,10 +1,10 @@
 language: java
-sudo: required
-services:
-  - docker
+#sudo: required
+#services:
+ # - docker
 
-before_install:
-  - docker build -t balak143/hello-world-ci-cd .
+#before_install:
+ # - docker build -t balak143/hello-world-ci-cd .
 
-script:
-  - docker run -e CI=true balak143/hello-world-ci-cd
+#script:
+ # - docker run -e CI=true balak143/hello-world-ci-cd
