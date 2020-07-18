@@ -1,6 +1,1 @@
 language: java
-before_install:
-  - docker build -t balak143/hello-world-travis-ci .
-
-script:
-  - docker run -e CI=true balak143/hello-world-travis-ci mvn test -- --coverage
