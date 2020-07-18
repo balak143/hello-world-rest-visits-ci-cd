@@ -1,5 +1,6 @@
 # Hello World Rest Visits API CI-CD
 
+```
 Integration with travis CI
 ```
 ### Git commit and Push
@@ -14,9 +15,8 @@ git push
 .travis.yml
 
 language: java
-```
-- https://travis-ci.org/github/balak143/hello-world-rest-visits-ci-cd
 
+- https://travis-ci.org/github/balak143/hello-world-rest-visits-ci-cd
 ```
 ## Docker File
 ```
